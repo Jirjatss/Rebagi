@@ -3,7 +3,7 @@
     <div class="border-2 border-[#00AF91] rounded-full flex m-auto" :class="message">
       <img :src="gambar" alt="" class="m-auto" :class="ukuran" />
     </div>
-    <h1 class="text-center mt-3 font-mulish text-[#00AF91]">{{ keterangan }}</h1>
+    <h1 class="text-center mt-3 font-mulish text-[#00AF91] md:block hidden m-auto">{{ keterangan }}</h1>
   </div>
 </template>
 

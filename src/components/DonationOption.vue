@@ -5,9 +5,9 @@
         <img src="../assets/images/hiasan1.png" alt="" class="w-full absolute bottom-0" />
         <img src="../assets/images/hiasan2.png" alt="" class="w-full absolute bottom-0" />
       </div>
-      <div class="grid grid-cols-2 m-10 sticky">
+      <div class="grid md:grid-cols-2 m-10 sticky">
         <img src="../assets/images/donasiyuk.png" alt="" class="w-[163px] m-auto" />
-        <h1 class="text-center m-auto font-bold">Buka Donasi</h1>
+        <h1 class="text-center m-auto font-bold">Donasi</h1>
       </div>
     </button>
     <button class="bg-[#DCF6F2] relative rounded-lg">
@@ -15,8 +15,8 @@
         <img src="../assets/images/hiasan1.png" alt="" class="w-full absolute bottom-0" />
         <img src="../assets/images/hiasan2.png" alt="" class="w-full absolute bottom-0" />
       </div>
-      <div class="grid grid-cols-2 sticky m-10">
-        <img src="../assets/images/donasiyuk.png" alt="" class="w-[163px] m-auto" />
+      <div class="grid md:grid-cols-2 sticky m-10">
+        <img src="../assets/images/bukadonasi.png" alt="" class="w-[203px] m-auto" />
         <h1 class="text-center m-auto font-bold">Buka Donasi</h1>
       </div>
     </button>

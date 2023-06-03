@@ -26,7 +26,7 @@
         <li><a>Tentang Kami</a></li>
       </ul>
     </div>
-    <div class="navbar-end gap-3">
+    <div class="navbar-end gap-3 font-bold">
       <a class="py-2 px-8 bg-white border-[#00AF91] border-2 rounded-lg text-[#00AF91] cursor-pointer hidden md:flex">Masuk</a>
       <a class="py-2 px-8 bg-[#00AF91] rounded-lg text-white cursor-pointer">Daftar</a>
     </div>

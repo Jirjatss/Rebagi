@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <footer class="footer p-10 text-neutral-content font-bold px-20" id="footer">
+      <footer class="footer p-10 text-neutral-content font-bold md:px-20" id="footer">
         <div class="md:ms-10 max-w-md">
           <img src="../../assets/images/logo.png" alt="" class="w-[156px] md:block hidden" />
           <h1 class="font-sansita mt-5 text-[36px] text-center text-white mx-auto">Rebagi</h1>
@@ -37,7 +37,7 @@
         <div class="text-white md:mt-16">
           <span class="font-bold text-[18px] mb-5">Lokasi Kami</span>
           <div class="grid gap-y-3 font-medium text-[16px]">
-            <a href>Jl. Dasan Anyar Kecamatan Jereweh KSB</a>
+            <a :href="getGoogleMapsLink" target="_blank">Jalan Dasan Anyar Kecamatan Jereweh</a>
           </div>
         </div>
         <div class="text-white md:mt-16">
@@ -53,7 +53,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    getGoogleMapsLink() {
+      // Buat URL Google Maps dengan koordinat atau alamat yang ditentukan
+      const googleMapsUrl = `https://maps.app.goo.gl/5dyVmRWyHkhAcBWQ8?g_st=ic`;
+
+      return googleMapsUrl;
+    },
+  },
+};
 </script>
 
 <style></style>

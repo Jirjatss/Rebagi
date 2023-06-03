@@ -6,8 +6,8 @@
           <div class="w-full">
             <h1 class="font-sansita text-[30px] font-bold text-white">Rebagi</h1>
             <img src="../assets/images/logo.png" alt="" class="m-auto p-5" />
-            <h1 class="font-mulish text-35px] font-medium text-white">"Nyaman ate tu telas ling tu rebagi lo sesama"</h1>
-            <button class="bg-[#007965] px-5 py-3 text-[14px] rounded-lg cursor-pointer mt-5 text-white font-mulish">Donasi Sekarang</button>
+            <h1 class="font-mulish text-[30px] font-medium text-white">"Nyaman ate tu telas ling tu rebagi lo sesama"</h1>
+            <button class="bg-[#007965] px-5 py-3 text-[14px] rounded-lg cursor-pointer mt-5 text-white font-mulish font-bold">Donasi Sekarang</button>
           </div>
         </div>
       </div>

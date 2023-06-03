@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         weshare: "url(./assets/images/bg-home.png)",
+        footer: "url(./assets/images/bg-footer.png)",
       },
       fontFamily: {
         sansita: ["Sansita Swashed", "cursive"],

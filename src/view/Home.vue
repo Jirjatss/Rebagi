@@ -6,9 +6,9 @@
   <div class="md:px-44 px-5 font-mulish" id="donasihome">
     <div class="grid grid-cols-4 py-10 justify-center md:mt-10 mt-5 gap-0 font-bold">
       <IconStyle message="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" :gambar="kemanusiaan" keterangan="Kemanusiaan" ukuran="md:w-[85px] w-[45px] md:pb-3" />
-      <IconStyle message="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" :gambar="pendidikan" keterangan="Pendidikan" ukuran="max-w-[85px] w-[45px]" />
-      <IconStyle message="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" :gambar="kesehatan" keterangan="Kesehatan" ukuran="max-w-[85px] w-[45px]" />
-      <IconStyle message="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" :gambar="anak" keterangan="Anak" ukuran="max-w-[85px] w-[45px]" />
+      <IconStyle message="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" :gambar="pendidikan" keterangan="Pendidikan" ukuran="md:w-[85px] w-[45px]" />
+      <IconStyle message="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" :gambar="kesehatan" keterangan="Kesehatan" ukuran="md:w-[85px] w-[45px]" />
+      <IconStyle message="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" :gambar="anak" keterangan="Anak" ukuran="md:w-[85px] w-[45px]" />
     </div>
     <div>
       <Deskripsi
@@ -50,9 +50,11 @@
       </div>
     </div>
   </div>
+  <Footer />
 </template>
 
 <script>
+import Footer from "../components/layout/Footer.vue";
 import Hero from "../components/Hero.vue";
 import NavbarVue from "../components/layout/Navbar.vue";
 import DonationOption from "../components/DonationOption.vue";
@@ -78,6 +80,7 @@ export default {
     IconStyle,
     Deskripsi,
     DonationOption,
+    Footer,
   },
 
   data() {

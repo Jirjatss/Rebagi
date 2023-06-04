@@ -10,7 +10,7 @@
           </div>
         </button>
         <ul tabindex="0" class="menu menu-sm dropdown-content p-2 shadow bg-white border-[#00AF91] border-2 rounded-box w-52 mt-8 font-bold">
-          <li><a>Beranda</a></li>
+          <li><router-link to="/">Beranda</router-link></li>
           <li><a>Ayo Donasi</a></li>
           <li><a>Buka Donasi</a></li>
           <li><a>Tentang Kami</a></li>
@@ -19,11 +19,11 @@
       <router-link to="/" class="btn btn-ghost normal-case text-xl">
         <img src="../../assets/images/logo.png" alt="" class="max-w-[50px] hidden md:flex" />
       </router-link>
-      <a class="font-sansita md:hidden font-bold text-white">Rebagi</a>
+      <router-link to="/" class="font-sansita md:hidden font-bold text-white">Rebagi</router-link>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1 text-white text-[20px] font-medium">
-        <li><a>Beranda</a></li>
+        <li><router-link to="/">Beranda</router-link></li>
         <li><a>Ayo Donasi</a></li>
         <li><a>Buka Donasi</a></li>
         <li><a>Tentang Kami</a></li>

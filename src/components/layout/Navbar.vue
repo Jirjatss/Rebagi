@@ -4,10 +4,13 @@
       <div class="dropdown">
         <button class="navbar-toggle md:hidden mx-3" :class="{ expanded: isExpanded }" @click="toggleExpand">
           <div class="bg-[#00AF91]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
         </button>
-        <ul tabindex="0" class="menu menu-sm dropdown-content p-2 shadow bg-white border-[#00AF91] border-2 rounded-box w-52 mt-8">
+        <ul tabindex="0"
+          class="menu menu-sm dropdown-content p-2 shadow bg-white border-[#00AF91] border-2 rounded-box w-52 mt-8">
           <li><a>Beranda</a></li>
           <li><a>Ayo Donasi</a></li>
           <li><a>Buka Donasi</a></li>
@@ -27,8 +30,9 @@
       </ul>
     </div>
     <div class="navbar-end gap-3">
-      <a class="py-2 px-8 bg-white border-[#00AF91] border-2 rounded-lg text-[#00AF91] cursor-pointer hidden md:flex">Masuk</a>
-      <a class="py-2 px-8 bg-[#00AF91] rounded-lg text-white cursor-pointer">Daftar</a>
+      <a
+        class="py-2 px-8 bg-white border-[#00AF91] border-2 rounded-lg text-[#00AF91] cursor-pointer hidden md:flex">Masuk</a>
+      <router-link to="/register" class="py-2 px-8 bg-[#00AF91] rounded-lg text-white cursor-pointer">Daftar</router-link>
     </div>
   </div>
 </template>

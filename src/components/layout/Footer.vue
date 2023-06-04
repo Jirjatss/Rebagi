@@ -36,15 +36,22 @@
         </div>
         <div class="text-white md:mt-16">
           <span class="font-bold text-[18px] mb-5">Lokasi Kami</span>
-          <div class="grid gap-y-3 font-medium text-[16px]">
+          <div class="gap-3 font-medium text-[16px] flex">
+            <font-i icon="fa-solid fa-location-dot" class="m-auto" />
             <a :href="getGoogleMapsLink" target="_blank">Jalan Dasan Anyar Kecamatan Jereweh</a>
           </div>
         </div>
         <div class="text-white md:mt-16">
           <span class="font-bold text-[18px] mb-5">Kontak Kami</span>
-          <div class="grid gap-y-3 font-medium text-[16px]">
-            <p>Email : sajadhijir@gmail.com</p>
-            <p>Telp : 0812 3362 3106</p>
+          <div class="grid gap-y-3 font-medium text-[16px] items-start">
+            <div class="flex gap-3">
+              <font-i icon="fa-solid fa-envelope" class="my-auto" />
+              <p>Sajadhijir@gmail.com</p>
+            </div>
+            <div class="flex gap-3">
+              <font-i icon="fa-solid fa-phone" class="my-auto" />
+              <p>0812 3362 3106</p>
+            </div>
           </div>
         </div>
       </footer>
